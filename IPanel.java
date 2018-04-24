@@ -33,11 +33,11 @@ public class IPanel extends JPanel implements ActionListener,Runnable{
 	//generate 16 icons from 4 imageicons and assign to 16 buttons
 	  public void getIcons(){
 		  ImageIcon[] icon=new ImageIcon[5];
-			icon[0]=new ImageIcon("/Users/huichunliu/Documents/workspace/1Headfirst/src/cse115lab10/tileboard/tb1.png");
-			icon[1]=new ImageIcon("/Users/huichunliu/Documents/workspace/1Headfirst/src/cse115lab10/tileboard/tb2.png");
-			icon[2]=new ImageIcon("/Users/huichunliu/Documents/workspace/1Headfirst/src/cse115lab10/tileboard/tb3.png");
-			icon[3]=new ImageIcon("/Users/huichunliu/Documents/workspace/1Headfirst/src/cse115lab10/tileboard/tb4.png");
-			icon[4]=new ImageIcon("/Users/huichunliu/Documents/workspace/1Headfirst/src/cse115lab10/tileboard/tb5.png");
+			icon[0]=new ImageIcon("tb1.png");
+			icon[1]=new ImageIcon("tb2.png");
+			icon[2]=new ImageIcon("tb3.png");
+			icon[3]=new ImageIcon("tb4.png");
+			icon[4]=new ImageIcon("tb5.png");
 			this.iback=icon[4];	
 			ImageIcon h[]=new ImageIcon[8];
 			int[] helper=new int[8];
